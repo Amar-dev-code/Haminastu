@@ -1,0 +1,118 @@
+﻿:root {
+    --theme-color-primary: rgb(0,0,102);
+    --theme-color-secondary: rgb(204,122,0);
+}
+
+
+body {
+}
+
+p{
+    padding-left:10px;
+}
+
+.inline{
+    flex-wrap:inherit !important;
+}
+
+
+.intl-tel-input {
+    display: table-cell;
+}
+
+.intl-tel-input .selected-flag {
+    z-index: 4;
+}
+
+.intl-tel-input .country-list {
+    z-index: 5;
+}
+
+.input-group .intl-tel-input .form-control {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+}
+
+.p-datetimepicker {
+    width: inherit;
+}
+.input-datetimepicker {
+    text-align: center;
+}
+
+.p-textarea {
+    width:inherit;
+  
+}
+
+textarea {
+    min-height: 73px;
+}
+
+.form-control-lg {
+    font-size: 1 rem !important;
+}
+
+#email, #location, #subject, #wordcount, #specialinst{
+    font-size:1rem;
+    text-align:center;
+}
+
+.form-div {
+    background-color: var(--theme-color-secondary);
+    padding-top: 28px;
+    padding-left: 23px;
+}
+
+.div-book-order {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-book-order {
+    background-color: rgb(0,0,102);
+    border-color: rgb(0,0,102);
+}
+.validation-email, .validation-form {
+    position: absolute;
+    color: red;
+    margin-top: -25px;
+    padding-top: -55px;
+    height: 32px;
+    width: 246px;
+    text-align: center;
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.xdsoft_ {
+    top: 140px !important;
+}
+
+
+
+.error{
+    border:2px solid red;
+}
+
+
+@media only screen and (max-width:401px) {
+    .form-div {
+        background-color: var(--theme-color-secondary);
+        padding-top: 16px;
+        padding-left: 0px;
+        padding-right: 24px;
+    }
+
+    #specialinst {
+        width: 329px;
+    }
+    .p-textarea {
+        min-width: 386px !important;
+    }
+
+}

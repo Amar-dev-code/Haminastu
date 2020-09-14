@@ -1,0 +1,46 @@
+﻿:root {
+    --theme-color-primary: rgb(0,33,71);
+    --theme-color-secondary: rgb(225,173,1);
+}
+
+
+.subject {
+    margin-top: 100px;
+}
+.ul-course-subjects {
+    list-style-type: square;
+    -webkit-column-count: 3;
+}
+
+.sub-courses {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 43px;
+}
+
+.ul-course-subjects > li{
+    font-family:arial;
+    color:rgb(255,255,255);
+}
+
+.sub-courses > p {
+    font-size: 1.7rem;
+    font-family: cursive;
+    color:rgb(255,255,255);
+}
+
+
+.bg-primary-secondary-gradient {
+    background-image: linear-gradient(to bottom,var(--theme-color-primary),var(--theme-color-secondary));
+}
+
+.card{
+    margin-bottom:20px;
+}
+@media only screen and (max-width:768px) {
+    .ul-course-subjects > li {
+        font-size: 0.8rem;
+    }
+    .sub-courses > p {
+        font-size: 1.3rem;
+    }

@@ -1,0 +1,42 @@
+﻿:root {
+    --theme-color-primary: rgb(0,33,71);
+    --theme-color-secondary: rgb(225,173,1);
+}
+
+body {
+    background-color: rgb(26, 26, 29);
+    
+    color: white;
+   
+}
+
+/*.tnc {
+    margin: 0px 40px;
+    border-color:var(--theme-color-primary);
+    border-width: 5px;
+    border-style: ridge;
+}*/
+
+.txt-tnc > h2 {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family:Arial;
+}
+
+.txt-tnc > p {
+    text-align: justify;
+    font-size: 0.6rem;
+    font-family:Arial;
+}
+
+
+.logo > img {
+    width: 350px;
+}
+.logo{
+    text-align:center;
+}
+
+.txt-tnc{
+    margin:0px 30px;
+}
